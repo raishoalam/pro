@@ -1,5 +1,7 @@
 https://productapp21.ccbp.tech/
 
+https://productapp21.netlify.app/
+
 Project Name: ProductApp
 
 Description:
