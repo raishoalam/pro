@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.review-container {
+  background-color: #000;
+  background-size: cover;
+  min-height: 100vh;
+}
+.heading-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.review-heading {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+.card-wrappers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.review-card {
+  background-color: black;
+  display: flex;
+  margin: 10px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  width: 200px;
+  position: relative;
+}
+.bookmark {
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.book-icons {
+  color: #fff;
+}
+.card-image {
+  display: flex;
+  justify-content: center;
+}
+.review-image {
+  width: 200px;
+  height: 230px;
+  margin: 10px;
+}
+li {
+  list-style: none;
+}
+.review-para {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  font-family: 'roboto';
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.icons {
+  display: flex;
+  padding-top: 0px;
+  justify-content: space-between;
+}
+.review-price {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #fff;
+}
+.price-icons {
+  color: #fff;
+}
+.bag-icons {
+  margin-top: 0px;
+  font-size: 20px;
+  color: #fff;
+}
+
+/* HEADER SECTION */
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.header-heading {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 200;
+  font-family: fantasy;
+  letter-spacing: 2px;
+}
+.head-icon {
+  color: #fff;
+  font-size: 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+.header-menu {
+  display: flex;
+  justify-content: center;
+  padding-left: 20px;
+}
+.menu {
+  color: #999;
+  padding-left: 30px;
+  font-family: 'roboto';
+  font-weight: 300;
+  font-size: 15px;
+  cursor: pointer;
+}
